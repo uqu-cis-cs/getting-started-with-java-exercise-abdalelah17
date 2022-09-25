@@ -11,10 +11,12 @@ package edu.uqu.cs;
  *      b.	Change <Student ID> to your student ID
  */
  
-class FirstExercise
+public class App
 {
-    private static void mainMethod( String[] args )
+    private static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "Hello abdalelah, 443009842" );
     }
 }
+mvn clean compile exec:java -Dexec.mainClass="edu.uqu.cs.App"
+
